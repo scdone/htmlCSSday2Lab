@@ -1,0 +1,82 @@
+*{
+    box-sizing:border-box;
+}
+
+div {
+    display: flex;
+    background-color: white;
+    border: solid black 5px;
+    width: 90vw;
+    height: 25vh;
+    margin-top: 100px;
+    margin-right:100px;
+    margin-left:60px;
+    margin-bottom:20px;
+    flex-direction: row;
+
+}
+
+div1 {
+    display: block;
+    background-color: white;
+    border: dotted black;
+    width: 90vw;
+    height:25vh;
+    margin-top: 0px;
+    margin-right:300px;
+    margin-left: 60px;
+    margin-bottom:20px;
+}
+
+div2 {
+    display: block;
+    background-color: white;
+    border: groove rgb(206, 205, 205) 1px;
+    width: 40vw;
+    height:22vh;
+    box-shadow: 10px 10px darkgrey;
+    margin-top: 0px;
+    margin-left: 300px;
+}
+
+.purplebox {
+    display: inline-flex;
+    height: 15vh;
+    width: 5vw;
+    background-color: blueviolet;
+    margin: 65px 10px 10px 10px;
+}
+
+.greenbox {
+    display: inline-flex;
+    height: 20vh;
+    width: 38vw;
+    background-color: green;
+    margin-left: 10px;
+
+}
+
+.bluebox {
+    display: inline-flex;
+    height: 20vh;
+    width: 20vw;
+    background-color: rgb(91, 187, 219);
+    border-radius: 50%;
+    margin-left: 10px;
+
+}
+
+.tanbox {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(245, 244, 171);
+    height: 20vh;
+    width: 80vw;
+    margin-left: 45px;
+    box-shadow: 0px 10px 10px 0px black;
+}
+
+.hello {
+    margin-left: 150px;
+    color: purple;
+}
